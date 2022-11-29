@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #212529;
+}
+
+.a {
+    justify-content: space-between;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: indianred;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1);
+    text-transform: uppercase;
+}
+
+.x {
+    background-color: indianred;
+    height: 1px;
+    width: 100%;
+}

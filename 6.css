@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #212529;
+}
+
+.a {
+    justify-content: space-between;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: indianred;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: indianred;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1);
+    text-transform: uppercase;
+    color: white;
+}
+
+.x {
+    background-color: indianred;
+    height: 1px;
+    width: 100%;
+}
+
+.xlu {
+    background-image: url("./images/about-us-page-heading.jpg");
+    height: 490px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.tec {
+    width: 100%;
+    background-color: black;
+    height: 2px;
+}
+
+.cd {
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
+i {
+    color: white;
+    font-size: 20px;
+}
+
+.cd:hover {
+    background-color: lightgray;
+    border-radius: 25px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+i:hover {
+    color: black;
+}
+
+.ouramazing {
+    margin-top: 50px;
+}
+
+.col-md-4 {
+    position: relative;
+}
+
+.ter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p {
+    color: #777;
+}
+
+.ter h4 {
+    font-weight: bold;
+    color: black;
+}
+
+.ourserve {
+    margin-top: 200px;
+}
+
+.input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.x-2 {
+    height: 180px;
+}
+
+.col-md-7 {
+    position: relative;
+}
+
+#x {
+    position: absolute;
+    left: 99%;
+    transform: translateX(-99%);
+    background-color: indianred;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+#x:hover {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: indianred;
+    position: relative;
+}
+
+.s span {
+    position: absolute;
+    background-color: indianred;
+    height: 3px;
+}
+
+.z {
+    position: relative;
+    width: 30%;
+}
+
+.z span {
+    position: absolute;
+    background-color: indianred;
+    width: 100%;
+    height: 3px;
+}
+
+.el {
+    position: relative;
+    width: 60%;
+}
+
+.el span {
+    position: absolute;
+    background-color: indianred;
+    width: 100%;
+    height: 3px;
+}
+
+.we {
+    position: relative;
+    width: 30%;
+}
+
+.we span {
+    position: absolute;
+    background-color: indianred;
+    width: 100%;
+    height: 3px;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #212529;
+}
+
+.xc {
+    display: flex;
+    margin-top: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+.xl a {
+    color: white;
+    text-decoration: none;
+}
+
+.xl a:hover {
+    color: indianred;
+    text-decoration: none;
+}
+
+h4 {
+    color: white;
+}
+
+.xl {
+    margin-top: 50px;
+}
+
+.xc h1 {
+    color: white;
+}
+
+.xc a h1:hover {
+    color: indianred;
+}
+
+.xc a {
+    text-decoration: none;
+}
+
+.xf span {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+
+.col-12 a {
+    padding: 0 10px;
+}
+
+.col-12 i {
+    font-size: 24px;
+    color: white;
+}
+
+.col-12 .fa-facebook {
+    color: white;
+    font-size: 24px;
+}
+
+.col-12 .fa-facebook:hover {
+    color: blue;
+}
+
+.col-12.fa-twitter {
+    color: white;
+    font-size: 24px;
+}
+
+.col-12 .fa-twitter:hover {
+    color: blue;
+}
+
+.col-12 .fa-whatsapp:hover {
+    color: green;
+}
+
+.col-12 .fa-youtube:hover {
+    color: red;
+}
+
+.card h2 {
+    color: black;
+}
+
+@media(max-width:767px) {
+    #x {
+        width: 100%;
+        text-align: center;
+    }
+    .nfooter {
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px) {
+    .dropdown-item:hover {
+        margin-left: 50px;
+        width: 85%;
+    }
+}

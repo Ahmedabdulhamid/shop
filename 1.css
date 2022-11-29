@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #212529;
+}
+
+.a {
+    justify-content: space-between;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: indianred;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: indianred;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1);
+    text-transform: uppercase;
+    color: white;
+}
+
+.bar .span {
+    background-color: indianred;
+    height: 1px;
+    width: 100%;
+}
+
+.l-2 a:hover {
+    background-color: indianred;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.l-1 a:hover {
+    background-color: indianred;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    color: white;
+}
+
+.l-2 a:hover {
+    background-color: indianred;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    color: white;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #212529;
+    position: relative;
+}
+
+.xc {
+    display: flex;
+    margin-top: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+.xl a {
+    color: white;
+    text-decoration: none;
+}
+
+.xl a:hover {
+    color: indianred;
+    text-decoration: none;
+}
+
+h4 {
+    color: white;
+}
+
+.xl {
+    margin-top: 50px;
+}
+
+.xc h1 {
+    color: white;
+}
+
+.xc a h1:hover {
+    color: indianred;
+}
+
+.xc a {
+    text-decoration: none;
+}
+
+.xf span {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+
+.col-12 a {
+    padding: 0 10px;
+}
+
+.col-12 i {
+    font-size: 24px;
+    color: white;
+}
+
+.col-12 .fa-facebook {
+    color: white;
+    font-size: 24px;
+}
+
+.col-12 .fa-facebook:hover {
+    color: blue;
+}
+
+.col-12.fa-twitter {
+    color: white;
+    font-size: 24px;
+}
+
+.col-12 .fa-twitter:hover {
+    color: blue;
+}
+
+.col-12 .fa-whatsapp:hover {
+    color: green;
+}
+
+.col-12 .fa-youtube:hover {
+    color: red;
+}
+
+.text {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #f3f3f3;
+    border: 10px solid #f3f3f3;
+    border-radius: 50px;
+    padding: 45px;
+}
+
+.o {
+    background-color: blue;
+    padding: 10px 10px;
+    color: white;
+}
+
+.o:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.ler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.x {
+    background-color: crimson;
+    color: white;
+    padding: 10px 10px;
+}
+
+.x:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.xcv {
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.xcv:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.t {
+    opacity: .6;
+}
+
+.t:hover {
+    transform: scale(1.09, 1.09);
+}
+
+span {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+
+#a {
+    background-color: blue;
+    padding: 10px 15px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+#a:hover {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media(max-width:767px) {
+    .x,
+    .o {
+        max-width: 100%;
+    }
+    .nfooter {
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px) {
+    .dropdown-item:hover {
+        margin-left: 50px;
+        width: 85%;
+    }
+}

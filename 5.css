@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #212529;
+}
+
+.a {
+    justify-content: space-between;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: indianred;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: indianred;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1);
+    text-transform: uppercase;
+    color: white;
+}
+
+.x {
+    background-color: indianred;
+    height: 1px;
+    width: 100%;
+}
+
+.xlu {
+    background-image: url("./images/productsbackground.jpg");
+    height: 490px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card:hover {
+    color: white;
+    background-color: #343a40;
+    cursor: pointer;
+}
+
+i {
+    color: #777;
+}
+
+i:hover {
+    color: indianred;
+}
+
+.t:hover {
+    color: indianred;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #777;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.tex-1 {
+    display: none;
+}
+
+.tex-2 {
+    display: none;
+}
+
+.btn-1 {
+    background-color: #777;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+.btn-1:hover {
+    color: white;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #212529;
+}
+
+.xc {
+    display: flex;
+    margin-top: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+.xl a {
+    color: white;
+    text-decoration: none;
+}
+
+.xl a:hover {
+    color: indianred;
+    text-decoration: none;
+}
+
+h4 {
+    color: white;
+}
+
+.xl {
+    margin-top: 50px;
+}
+
+.xc h1 {
+    color: white;
+}
+
+.xc a h1:hover {
+    color: indianred;
+}
+
+.xc a {
+    text-decoration: none;
+}
+
+.xf span {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+
+.col-12 a {
+    padding: 0 10px;
+}
+
+.col-12 i {
+    font-size: 24px;
+    color: white;
+}
+
+.col-12 .fa-facebook {
+    color: white;
+    font-size: 24px;
+}
+
+.col-12 .fa-facebook:hover {
+    color: blue;
+}
+
+.col-12.fa-twitter {
+    color: white;
+    font-size: 24px;
+}
+
+.col-12 .fa-twitter:hover {
+    color: blue;
+}
+
+.col-12 .fa-whatsapp:hover {
+    color: green;
+}
+
+.col-12 .fa-youtube:hover {
+    color: red;
+}
+
+i {
+    font-size: 24px;
+}
+
+@media(max-width:767px) {
+    .nfooter {
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px) {
+    .dropdown-item:hover {
+        margin-left: 50px;
+        width: 85%;
+    }
+}

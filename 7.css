@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #212529;
+}
+
+.a {
+    justify-content: space-between;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: indianred;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: indianred;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1);
+    text-transform: uppercase;
+    color: white;
+}
+
+.x {
+    background-color: indianred;
+    height: 1px;
+    width: 100%;
+}
+
+.xlu {
+    background-image: url("./images/about-us-page-heading.jpg");
+    height: 490px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h2 {
+    color: indianred;
+    position: relative;
+}
+
+.s span {
+    position: absolute;
+    background-color: indianred;
+    height: 3px;
+}
+
+.z {
+    position: relative;
+    width: 30%;
+}
+
+.z span {
+    position: absolute;
+    background-color: indianred;
+    width: 100%;
+    height: 3px;
+}
+
+.el {
+    position: relative;
+    width: 60%;
+}
+
+.el span {
+    position: absolute;
+    background-color: indianred;
+    width: 100%;
+    height: 3px;
+}
+
+.we {
+    position: relative;
+    width: 30%;
+}
+
+.we span {
+    position: absolute;
+    background-color: indianred;
+    width: 100%;
+    height: 3px;
+}
+
+.col-lg-7 {
+    position: relative;
+}
+
+.mgh {
+    position: absolute;
+    left: 20%;
+    transform: translateX(-20%);
+}
+
+p {
+    color: #777;
+    margin: 3px 0;
+    font-size: 18px;
+}
+
+.tre {
+    text-align: center;
+}
+
+.input {
+    display: block;
+    margin: 10px 0;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: indianred;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+textarea {
+    height: 200px;
+}
+
+.feedback-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    width: 20%;
+}
+
+form .container .feedback .mail,
+form .container .feedback .comment {
+    padding: 10px;
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+form {
+    flex-direction: column;
+    flex-basis: 70%;
+    padding-left: 300px;
+}
+
+input {
+    display: block;
+    width: 50%;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #212529;
+}
+
+.xc {
+    display: flex;
+    margin-top: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+.xl a {
+    color: white;
+    text-decoration: none;
+}
+
+.xl a:hover {
+    color: indianred;
+    text-decoration: none;
+}
+
+h4 {
+    color: white;
+}
+
+.xl {
+    margin-top: 50px;
+}
+
+.xc h1 {
+    color: white;
+}
+
+.xc a h1:hover {
+    color: indianred;
+}
+
+.xc a {
+    text-decoration: none;
+}
+
+.xf span {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+
+.col-12 a {
+    padding: 0 10px;
+}
+
+.col-12 i {
+    font-size: 24px;
+    color: white;
+}
+
+.col-12 .fa-facebook {
+    color: white;
+    font-size: 24px;
+}
+
+.col-12 .fa-facebook:hover {
+    color: blue;
+}
+
+.col-12.fa-twitter {
+    color: white;
+    font-size: 24px;
+}
+
+.col-12 .fa-twitter:hover {
+    color: blue;
+}
+
+.col-12 .fa-whatsapp:hover {
+    color: green;
+}
+
+.col-12 .fa-youtube:hover {
+    color: red;
+}
+
+.card h2 {
+    color: black;
+}
+
+@media(max-width:976px) {
+    .btn {
+        width: 50%;
+        margin-right: 200px;
+    }
+    form {
+        padding-left: 150px;
+        flex-basis: 70%;
+    }
+    .nfooter {
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px) {
+    .dropdown-item:hover {
+        margin-left: 50px;
+        width: 85%;
+    }
+}
